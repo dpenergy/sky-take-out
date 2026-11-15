@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: server
+    # 配置LOG_PATH属性，方便使用相对路径（使用时用${LOG_PATH}调用即可）
+
+
+  # 详解项配置
+  # 交给SpringBoot自动配置使用
+  # 首先被绑定到DataSourceProperties，再被创建为DataSource bean(默认是HikariCP连接池)，之后所有需要访问数据库的框架（Mybatis,JPA,JdbcTemplate）都从这个bean获取到数据库的连接
+  datasource:
+    url: jdbc:mysql://localhost:3306/sky_take_out
+    username: root
+    password: mysql088wway
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# 启动knife4j增强UI
+knife4j:
+  enable: true
+# springdoc 默认路径 /v3/api-docs 和 /swagger-ui.html 无需修改
+# doc.html 访问地址默认为 http://localhost:8080/doc.html
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+logging:
+  file:
+    # 相对路径基于JVM工作目录（IDEA默认是server模块目录），../回到项目根目录sky-take-out，日志输出到sky-take-out/logs
+    path: ./logs

@@ -1,0 +1,14 @@
+2026-11-15 16:01:27 [main] INFO  com.wudd.ServerApplicationTests-Starting ServerApplicationTests using Java 21.0.12 with PID 9292 (started by wudd in D:\15_sky_take_out\sky-take-out\server)
+2026-11-15 16:01:27 [main] DEBUG com.wudd.ServerApplicationTests-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-15 16:01:27 [main] INFO  com.wudd.ServerApplicationTests-No active profile set, falling back to 1 default profile: "default"
+2026-11-15 16:01:27 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-15 16:01:28 [main] INFO  com.wudd.ServerApplicationTests-Started ServerApplicationTests in 1.962 seconds (process running for 3.121)
+2026-11-15 16:01:28 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-15 16:01:28 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-15 16:07:15 [main] INFO  com.wudd.ServerApplicationTests-Starting ServerApplicationTests using Java 21.0.12 with PID 43920 (started by wudd in D:\15_sky_take_out\sky-take-out\server)
+2026-11-15 16:07:15 [main] DEBUG com.wudd.ServerApplicationTests-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-15 16:07:15 [main] INFO  com.wudd.ServerApplicationTests-No active profile set, falling back to 1 default profile: "default"
+2026-11-15 16:07:15 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-15 16:07:17 [main] INFO  com.wudd.ServerApplicationTests-Started ServerApplicationTests in 1.956 seconds (process running for 2.971)
+2026-11-15 16:07:17 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-15 16:07:17 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'

@@ -1,0 +1,772 @@
+2026-11-15 13:46:17 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 36652 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-15 13:46:17 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-15 13:46:17 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-15 13:46:17 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-15 13:46:18 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner-No MyBatis mapper was found in '[com.wudd]' package. Please check your configuration.
+2026-11-15 13:46:18 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-15 13:46:18 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-15 13:46:18 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-15 13:46:18 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-15 13:46:18 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 786 ms
+2026-11-15 13:46:18 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-15 13:46:18 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-15 13:46:18 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.705 seconds (process running for 2.242)
+2026-11-15 13:46:18 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-15 13:46:18 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-15 13:46:47 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-15 13:46:47 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-15 13:46:47 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2026-11-15 13:46:49 [http-nio-8080-exec-7] INFO  org.springdoc.api.AbstractOpenApiResource-Init duration for springdoc-openapi is: 153 ms
+2026-11-15 13:47:04 [http-nio-8080-exec-10] INFO  com.wudd.controller.HelloController-hello
+2026-11-15 13:47:16 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-15 13:47:16 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-15 15:01:52 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 43456 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-15 15:01:52 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-15 15:01:52 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-15 15:01:53 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-15 15:01:53 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-15 15:01:53 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-15 15:01:53 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-15 15:01:53 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-15 15:01:53 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 829 ms
+2026-11-15 15:01:54 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-15 15:01:54 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-15 15:01:54 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.842 seconds (process running for 2.374)
+2026-11-15 15:01:54 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-15 15:01:54 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-15 15:01:59 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-15 15:01:59 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-15 15:01:59 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-11-15 15:02:00 [http-nio-8080-exec-4] INFO  org.springdoc.api.AbstractOpenApiResource-Init duration for springdoc-openapi is: 164 ms
+2026-11-15 15:03:32 [http-nio-8080-exec-9] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver-Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'loginInfo' for method parameter type LoginInfo is not present]
+2026-11-15 15:04:58 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-15 15:04:58 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-15 15:05:02 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 42744 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-15 15:05:02 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-15 15:05:02 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-15 15:05:02 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-15 15:05:02 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-15 15:05:02 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-15 15:05:02 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-15 15:05:02 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-15 15:05:02 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 658 ms
+2026-11-15 15:05:03 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-15 15:05:03 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-15 15:05:03 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.522 seconds (process running for 1.944)
+2026-11-15 15:05:03 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-15 15:05:03 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-15 15:05:06 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-15 15:05:06 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-15 15:05:06 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 3 ms
+2026-11-15 15:05:07 [http-nio-8080-exec-4] INFO  org.springdoc.api.AbstractOpenApiResource-Init duration for springdoc-openapi is: 178 ms
+2026-11-15 15:05:56 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-15 15:05:56 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123456)
+2026-11-15 15:05:56 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-11-15 15:05:57 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1164bab
+2026-11-15 15:05:57 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-11-15 15:05:57 [http-nio-8080-exec-6] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'wudd.admi' doesn't exist
+### The error may exist in com/wudd/mapper/AdmiMapper.java (best guess)
+### The error may involve com.wudd.mapper.AdmiMapper.queryByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from admi where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'wudd.admi' doesn't exist
+; bad SQL grammar []] with root cause
+java.sql.SQLSyntaxErrorException: Table 'wudd.admi' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:383)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy106.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	at jdk.proxy2/jdk.proxy2.$Proxy81.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:169)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy83.queryByUsername(Unknown Source)
+	at com.wudd.service.impl.AdmiServiceImpl.login(AdmiServiceImpl.java:21)
+	at com.wudd.controller.AdmiController.login(AdmiController.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at com.github.xiaoymin.knife4j.extend.filter.basic.JakartaServletSecurityBasicAuthFilter.doFilter(JakartaServletSecurityBasicAuthFilter.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:164)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:411)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1308)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2202)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:947)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:481)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-15 15:09:39 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-15 15:09:39 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-15 15:09:39 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-15 15:09:39 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-11-15 15:09:41 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 22920 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-15 15:09:41 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-15 15:09:41 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-15 15:09:41 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-15 15:09:41 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-15 15:09:41 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-15 15:09:41 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-15 15:09:41 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-15 15:09:41 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 679 ms
+2026-11-15 15:09:42 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-15 15:09:42 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-15 15:09:42 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.467 seconds (process running for 1.892)
+2026-11-15 15:09:42 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-15 15:09:42 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-15 15:11:21 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-15 15:11:21 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-15 15:11:21 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2026-11-15 15:11:21 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver-Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-11-15 15:11:33 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-15 15:11:33 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-15 15:11:36 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 16068 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-15 15:11:36 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-15 15:11:36 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-15 15:11:36 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-15 15:11:37 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-15 15:11:37 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-15 15:11:37 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-15 15:11:37 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-15 15:11:37 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 710 ms
+2026-11-15 15:11:37 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-15 15:11:37 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-15 15:11:37 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.543 seconds (process running for 2.015)
+2026-11-15 15:11:37 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-15 15:11:37 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-15 15:11:42 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-15 15:11:42 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-15 15:11:42 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-11-15 15:11:42 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver-Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-11-15 15:12:17 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-15 15:12:17 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123455)
+2026-11-15 15:12:17 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-11-15 15:12:17 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4286f926
+2026-11-15 15:12:17 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-11-15 15:12:18 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'wudd.admi' doesn't exist
+### The error may exist in com/wudd/mapper/AdmiMapper.java (best guess)
+### The error may involve com.wudd.mapper.AdmiMapper.queryByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from admi where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'wudd.admi' doesn't exist
+; bad SQL grammar []] with root cause
+java.sql.SQLSyntaxErrorException: Table 'wudd.admi' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:383)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy97.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	at jdk.proxy2/jdk.proxy2.$Proxy81.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:169)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy83.queryByUsername(Unknown Source)
+	at com.wudd.service.impl.AdmiServiceImpl.login(AdmiServiceImpl.java:21)
+	at com.wudd.controller.AdmiController.login(AdmiController.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at com.github.xiaoymin.knife4j.extend.filter.basic.JakartaServletSecurityBasicAuthFilter.doFilter(JakartaServletSecurityBasicAuthFilter.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:164)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:411)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1308)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2202)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:947)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:481)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-15 15:13:48 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-15 15:13:48 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-15 15:13:48 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-15 15:13:49 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-11-15 15:13:50 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 30292 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-15 15:13:50 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-15 15:13:50 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-15 15:13:51 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-15 15:13:51 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-15 15:13:51 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-15 15:13:51 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-15 15:13:51 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-15 15:13:51 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 688 ms
+2026-11-15 15:13:51 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-15 15:13:51 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-15 15:13:51 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.492 seconds (process running for 1.896)
+2026-11-15 15:13:51 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-15 15:13:51 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-15 15:13:55 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-15 15:13:55 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-15 15:13:55 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-11-15 15:13:55 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-15 15:13:55 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123455)
+2026-11-15 15:13:55 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-11-15 15:13:56 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d57849
+2026-11-15 15:13:56 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-11-15 15:13:56 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.wudd.exception.UsernameException: 该用户不存在] with root cause
+com.wudd.exception.UsernameException: 该用户不存在
+	at com.wudd.service.impl.AdmiServiceImpl.login(AdmiServiceImpl.java:25)
+	at com.wudd.controller.AdmiController.login(AdmiController.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at com.github.xiaoymin.knife4j.extend.filter.basic.JakartaServletSecurityBasicAuthFilter.doFilter(JakartaServletSecurityBasicAuthFilter.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:164)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:411)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1308)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2202)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:947)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:481)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-15 15:14:17 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-15 15:14:17 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123456)
+2026-11-15 15:14:17 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.wudd.exception.UsernameException: 该用户不存在] with root cause
+com.wudd.exception.UsernameException: 该用户不存在
+	at com.wudd.service.impl.AdmiServiceImpl.login(AdmiServiceImpl.java:25)
+	at com.wudd.controller.AdmiController.login(AdmiController.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at com.github.xiaoymin.knife4j.extend.filter.basic.JakartaServletSecurityBasicAuthFilter.doFilter(JakartaServletSecurityBasicAuthFilter.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:164)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:411)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1308)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2202)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:947)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:481)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-15 15:14:26 [http-nio-8080-exec-9] INFO  org.springdoc.api.AbstractOpenApiResource-Init duration for springdoc-openapi is: 160 ms
+2026-11-15 15:14:28 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-15 15:14:28 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123456)
+2026-11-15 15:14:28 [http-nio-8080-exec-8] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.wudd.exception.UsernameException: 该用户不存在] with root cause
+com.wudd.exception.UsernameException: 该用户不存在
+	at com.wudd.service.impl.AdmiServiceImpl.login(AdmiServiceImpl.java:25)
+	at com.wudd.controller.AdmiController.login(AdmiController.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at com.github.xiaoymin.knife4j.extend.filter.basic.JakartaServletSecurityBasicAuthFilter.doFilter(JakartaServletSecurityBasicAuthFilter.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:164)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:411)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1308)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2202)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:947)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:481)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-15 15:15:09 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-15 15:15:09 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-15 15:15:09 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-15 15:15:09 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-11-15 15:15:13 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 14240 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-15 15:15:13 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-15 15:15:13 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-15 15:15:13 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-15 15:15:14 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-15 15:15:14 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-15 15:15:14 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-15 15:15:14 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-15 15:15:14 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 687 ms
+2026-11-15 15:15:14 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-15 15:15:14 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-15 15:15:14 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.497 seconds (process running for 1.907)
+2026-11-15 15:15:14 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-15 15:15:14 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-15 15:15:17 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-15 15:15:17 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-15 15:15:17 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-11-15 15:15:18 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-15 15:15:18 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123456)
+2026-11-15 15:15:18 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-11-15 15:15:18 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@475aa4fe
+2026-11-15 15:15:18 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-11-15 15:15:28 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-15 15:15:28 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=13456)
+2026-11-15 15:15:28 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.wudd.exception.PasswordException: 密码错误] with root cause
+com.wudd.exception.PasswordException: 密码错误
+	at com.wudd.service.impl.AdmiServiceImpl.login(AdmiServiceImpl.java:32)
+	at com.wudd.controller.AdmiController.login(AdmiController.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at com.github.xiaoymin.knife4j.extend.filter.basic.JakartaServletSecurityBasicAuthFilter.doFilter(JakartaServletSecurityBasicAuthFilter.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:164)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:411)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1308)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2202)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:947)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:481)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-15 15:15:40 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-15 15:15:40 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wu1dd, password=123456)
+2026-11-15 15:15:40 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.wudd.exception.UsernameException: 该用户不存在] with root cause
+com.wudd.exception.UsernameException: 该用户不存在
+	at com.wudd.service.impl.AdmiServiceImpl.login(AdmiServiceImpl.java:25)
+	at com.wudd.controller.AdmiController.login(AdmiController.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at com.github.xiaoymin.knife4j.extend.filter.basic.JakartaServletSecurityBasicAuthFilter.doFilter(JakartaServletSecurityBasicAuthFilter.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:164)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:411)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1308)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2202)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:947)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:481)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-15 15:16:18 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-15 15:16:18 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-15 15:16:18 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-15 15:16:18 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-11-15 15:26:00 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 35516 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-15 15:26:00 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-15 15:26:00 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-15 15:26:00 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-15 15:26:01 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-15 15:26:01 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-15 15:26:01 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-15 15:26:01 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-15 15:26:01 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 705 ms
+2026-11-15 15:26:01 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-15 15:26:01 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-15 15:26:01 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.522 seconds (process running for 1.931)
+2026-11-15 15:26:01 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-15 15:26:01 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-15 15:26:08 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-15 15:26:08 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-15 15:26:08 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-11-15 15:26:08 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-15 15:26:08 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123456)
+2026-11-15 15:26:08 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-11-15 15:26:09 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41c3f717
+2026-11-15 15:26:09 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-11-15 15:26:13 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-15 15:26:13 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=w1udd, password=123456)
+2026-11-15 15:26:13 [http-nio-8080-exec-2] ERROR com.wudd.handler.GlobalExceptionHandler-该用户不存在
+2026-11-15 15:26:19 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-15 15:26:19 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=1123456)
+2026-11-15 15:26:19 [http-nio-8080-exec-3] ERROR com.wudd.handler.GlobalExceptionHandler-密码错误
+2026-11-15 15:26:32 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-15 15:26:32 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-15 15:26:32 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-15 15:26:32 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-11-15 22:33:25 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 29472 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-15 22:33:25 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-15 22:33:25 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-15 22:33:25 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-15 22:33:26 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-15 22:33:26 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-15 22:33:26 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-15 22:33:26 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-15 22:33:26 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 833 ms
+2026-11-15 22:33:26 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-15 22:33:26 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-15 22:33:26 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.748 seconds (process running for 2.258)
+2026-11-15 22:33:26 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-15 22:33:26 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-15 22:33:31 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-15 22:33:31 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-15 22:33:31 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2026-11-15 22:33:32 [http-nio-8080-exec-5] ERROR com.wudd.handler.GlobalExceptionHandler-No static resource hybridaction/zybTrackerStatisticsAction for request '/hybridaction/zybTrackerStatisticsAction'.
+2026-11-15 22:33:32 [http-nio-8080-exec-6] ERROR com.wudd.handler.GlobalExceptionHandler-No static resource hybridaction/zybTrackerStatisticsAction for request '/hybridaction/zybTrackerStatisticsAction'.
+2026-11-15 22:33:33 [http-nio-8080-exec-3] INFO  org.springdoc.api.AbstractOpenApiResource-Init duration for springdoc-openapi is: 151 ms
+2026-11-15 22:33:47 [http-nio-8080-exec-1] INFO  com.wudd.controller.HelloController-hello
+2026-11-15 22:34:08 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-15 22:34:08 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-15 22:37:38 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 45820 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-15 22:37:38 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-15 22:37:38 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-15 22:37:38 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-15 22:37:38 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-15 22:37:38 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-15 22:37:38 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-15 22:37:38 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-15 22:37:38 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 669 ms
+2026-11-15 22:37:39 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-15 22:37:39 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-15 22:37:39 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.414 seconds (process running for 1.809)
+2026-11-15 22:37:39 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-15 22:37:39 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-15 22:37:47 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-15 22:37:47 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-15 22:37:47 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-11-15 22:37:47 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-用户未登录
+2026-11-15 22:37:54 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-15 22:37:54 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123456)
+2026-11-15 22:37:54 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-11-15 22:37:54 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a7a87f6
+2026-11-15 22:37:54 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-11-15 22:38:45 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-15 22:38:45 [http-nio-8080-exec-2] INFO  com.wudd.controller.HelloController-hello
+2026-11-15 22:38:52 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-用户未登录
+2026-11-15 22:39:00 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-15 22:39:00 [http-nio-8080-exec-5] INFO  com.wudd.controller.HelloController-hello
+2026-11-15 22:39:26 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-15 22:39:26 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wud2d, password=123456)
+2026-11-15 22:39:26 [http-nio-8080-exec-7] ERROR com.wudd.handler.GlobalExceptionHandler-该用户不存在
+2026-11-15 22:39:30 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-15 22:39:30 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=12456)
+2026-11-15 22:39:30 [http-nio-8080-exec-6] ERROR com.wudd.handler.GlobalExceptionHandler-密码错误
+2026-11-15 22:39:34 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-15 22:39:34 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123456)
+2026-11-15 22:39:39 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-15 22:39:39 [http-nio-8080-exec-10] INFO  com.wudd.controller.HelloController-hello
+2026-11-15 22:39:51 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-15 22:39:51 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-15 22:39:51 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-15 22:39:51 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-11-15 22:51:54 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 32844 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-15 22:51:54 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-15 22:51:54 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-15 22:51:55 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-15 22:51:55 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-15 22:51:55 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-15 22:51:55 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-15 22:51:55 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-15 22:51:55 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 746 ms
+2026-11-15 22:51:56 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-15 22:51:56 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-15 22:51:56 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.514 seconds (process running for 1.919)
+2026-11-15 22:51:56 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-15 22:51:56 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-15 22:52:03 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-15 22:52:03 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-15 22:52:03 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-11-15 22:52:03 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-15 22:52:03 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123456)
+2026-11-15 22:52:03 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-11-15 22:52:04 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3dabdc38
+2026-11-15 22:52:04 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-11-15 22:52:12 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-15 22:52:12 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-15 22:52:12 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-15 22:52:12 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-11-15 22:52:16 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 17752 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-15 22:52:16 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-15 22:52:16 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-15 22:52:17 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-15 22:52:17 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-15 22:52:17 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-15 22:52:17 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-15 22:52:17 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-15 22:52:17 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 811 ms
+2026-11-15 22:52:18 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-15 22:52:18 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-15 22:52:18 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.965 seconds (process running for 3.017)
+2026-11-15 22:52:18 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-15 22:52:18 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-15 22:52:22 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-15 22:52:22 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-15 22:52:22 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-11-15 22:52:22 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-15 22:52:22 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123456)
+2026-11-15 22:52:22 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-11-15 22:52:22 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c6997c1
+2026-11-15 22:52:22 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-11-15 22:52:56 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-15 22:52:56 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-15 22:52:56 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-15 22:52:56 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-11-15 22:53:42 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 48756 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-15 22:53:42 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-15 22:53:42 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-15 22:53:42 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-15 22:53:42 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-15 22:53:42 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-15 22:53:42 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-15 22:53:42 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-15 22:53:42 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 654 ms
+2026-11-15 22:53:43 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-15 22:53:43 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-15 22:53:43 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.391 seconds (process running for 1.784)
+2026-11-15 22:53:43 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-15 22:53:43 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-15 22:53:48 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-15 22:53:48 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-15 22:53:48 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-11-15 22:53:48 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-15 22:53:48 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123456)
+2026-11-15 22:53:49 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-11-15 22:53:49 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f123be6
+2026-11-15 22:53:49 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-11-15 22:53:53 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-15 22:53:53 [http-nio-8080-exec-2] INFO  com.wudd.controller.HelloController-hello
+2026-11-15 22:54:02 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-15 22:54:02 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-15 22:54:02 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-15 22:54:02 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
