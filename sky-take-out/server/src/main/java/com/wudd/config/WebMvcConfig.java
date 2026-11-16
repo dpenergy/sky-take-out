@@ -13,6 +13,14 @@ public class WebMvcConfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-       registry.addInterceptor(tokenInterceptor).addPathPatterns("/**").excludePathPatterns("/login");
+        registry.addInterceptor(tokenInterceptor)
+                .addPathPatterns("/**")
+                .excludePathPatterns("/login")
+                // 放行 knife4j/springdoc 接口文档：页面本身 + 静态资源 + OpenAPI 描述文件
+                .excludePathPatterns("/doc.html")
+                .excludePathPatterns("/webjars/**")
+                .excludePathPatterns("/v3/api-docs/**")
+                .excludePathPatterns("/swagger-ui/**")
+                .excludePathPatterns("/favicon.ico");
     }
 }

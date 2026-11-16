@@ -4,7 +4,9 @@ import dto.Result;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.ibatis.annotations.Delete;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -31,5 +33,10 @@ public class HelloController {
     public Result hello(){
         log.info("hello");
         return Result.success("hello");
+    }
+
+    @DeleteMapping("/delete")
+    public Result delete(String name,String id){
+        return Result.success("Already delete!");
     }
 }

@@ -3,6 +3,8 @@ package com.wudd.handler;
 import com.wudd.exception.PasswordException;
 import com.wudd.exception.UsernameException;
 import dto.Result;
+import io.jsonwebtoken.ExpiredJwtException;
+import io.jsonwebtoken.JwtException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -16,6 +18,7 @@ public class GlobalExceptionHandler {
         return Result.error("服务器出错误了，请联系管理员",null);
     }
 
+    // ---------------- Login ----------------
     @ExceptionHandler
     public Result handleUsernameException(UsernameException e){
         log.error(e.getMessage());
@@ -26,5 +29,18 @@ public class GlobalExceptionHandler {
     public Result handlePasswordException(PasswordException e){
         log.error(e.getMessage());
         return Result.error(e.getMessage(),null);
+    }
+
+    // ---------------- JWT ----------------
+    @ExceptionHandler
+    public Result handleJwtException(JwtException e){
+        log.error(e.getMessage());
+        return Result.error("令牌损坏，请重新登录",null);
+    }
+
+    @ExceptionHandler
+    public Result handleExpiredJwtException(ExpiredJwtException e) {
+        log.error(e.getMessage());
+        return Result.error("登录过期",null);
     }
 }
