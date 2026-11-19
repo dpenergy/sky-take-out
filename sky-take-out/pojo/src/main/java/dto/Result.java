@@ -13,7 +13,7 @@ public class Result {
     @Schema(description = "状态：1-成功，0-失败")
     private int code;
     @Schema(description = "返回提示")
-    private String message;
+    private String msg;
     @Schema(description = "具体数据")
     private Object data;
 
