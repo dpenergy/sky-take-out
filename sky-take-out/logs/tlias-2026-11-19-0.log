@@ -113,3 +113,83 @@
 2026-11-19 11:56:04 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-登录请求
 2026-11-19 11:56:04 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123456)
 2026-11-19 11:56:04 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=wudd, password=123456)) 耗时66ms
+2026-11-19 12:03:54 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-19 12:03:54 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123456)
+2026-11-19 12:03:54 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=wudd, password=123456)) 耗时4ms
+2026-11-19 13:28:58 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m6s396ms834µs).
+2026-11-19 14:34:54 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m55s96ms170µs600ns).
+2026-11-19 14:35:10 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-19 14:35:10 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=12345)
+2026-11-19 14:35:10 [http-nio-8080-exec-10] ERROR com.wudd.handler.GlobalExceptionHandler-密码错误
+2026-11-19 14:35:14 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-19 14:35:14 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd1, password=123456)
+2026-11-19 14:35:14 [http-nio-8080-exec-2] ERROR com.wudd.handler.GlobalExceptionHandler-该用户不存在
+2026-11-19 14:35:16 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-19 14:35:16 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123456)
+2026-11-19 14:35:16 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=wudd, password=123456)) 耗时4ms
+2026-11-19 14:38:55 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-19 14:38:55 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123456)
+2026-11-19 14:38:55 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=wudd, password=123456)) 耗时1ms
+2026-11-19 14:53:18 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-19 14:53:18 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=12345)
+2026-11-19 14:53:18 [http-nio-8080-exec-5] ERROR com.wudd.handler.GlobalExceptionHandler-密码错误
+2026-11-19 14:53:20 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-19 14:53:20 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123456)
+2026-11-19 14:53:20 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=wudd, password=123456)) 耗时1ms
+2026-11-19 15:22:51 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-19 15:22:51 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123456)
+2026-11-19 15:22:51 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=wudd, password=123456)) 耗时21ms
+2026-11-19 16:20:56 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-19 16:20:56 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123)
+2026-11-19 16:20:56 [http-nio-8080-exec-8] ERROR com.wudd.handler.GlobalExceptionHandler-密码错误
+2026-11-19 16:20:59 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-19 16:20:59 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd4, password=123456)
+2026-11-19 16:20:59 [http-nio-8080-exec-10] ERROR com.wudd.handler.GlobalExceptionHandler-该用户不存在
+2026-11-19 16:21:01 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-19 16:21:01 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123456)
+2026-11-19 16:21:01 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=wudd, password=123456)) 耗时6ms
+2026-11-19 16:28:35 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-19 16:28:35 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=meimeichifan, password=123456)
+2026-11-19 16:28:35 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=meimeichifan, password=123456)) 耗时8ms
+2026-11-19 16:29:44 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-19 16:29:44 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-19 16:29:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-19 16:29:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-11-19 16:29:50 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 28904 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-19 16:29:50 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-19 16:29:50 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-19 16:29:50 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-19 16:29:51 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-19 16:29:51 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-19 16:29:51 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-19 16:29:51 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-19 16:29:51 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 877 ms
+2026-11-19 16:29:51 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-19 16:29:51 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-19 16:29:51 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.868 seconds (process running for 2.349)
+2026-11-19 16:29:51 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-19 16:29:51 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-19 16:30:08 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-19 16:30:08 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-19 16:30:08 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-11-19 16:30:08 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-19 16:30:08 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=meimeichifan, password=123456, token=null, name=null)
+2026-11-19 16:30:08 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-11-19 16:30:09 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ccacc6c
+2026-11-19 16:30:09 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-11-19 16:30:09 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=meimeichifan, password=123456, token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJza3ktdGFrZS1vdXQtc2V2ZXIiLCJzdWIiOiI1IiwiaWF0IjoxNzk1MDc3MDA5LCJleHAiOjE3OTUxNjM0MDksIm5hbWUiOiLnvo7kuL3lpbPlrakifQ.CdI9pYjMB3wTotu-vdK6g7k3Jm6bJ23Rozmd5qlx5dQ, name=美丽女孩)) 耗时435ms
+2026-11-19 16:30:12 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-19 16:30:12 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=meimeichifan, password=123456, token=null, name=null)
+2026-11-19 16:30:12 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=meimeichifan, password=123456, token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJza3ktdGFrZS1vdXQtc2V2ZXIiLCJzdWIiOiI1IiwiaWF0IjoxNzk1MDc3MDEyLCJleHAiOjE3OTUxNjM0MTIsIm5hbWUiOiLnvo7kuL3lpbPlrakifQ.16aUhZYKu9yTMQUQzXh9oz_dVEYID231X1e-2uPsol0, name=美丽女孩)) 耗时6ms
+2026-11-19 16:30:24 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-19 16:30:24 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=wudd, password=123456, token=null, name=null)
+2026-11-19 16:30:24 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=wudd, password=123456, token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJza3ktdGFrZS1vdXQtc2V2ZXIiLCJzdWIiOiIxIiwiaWF0IjoxNzk1MDc3MDI0LCJleHAiOjE3OTUxNjM0MjQsIm5hbWUiOiLogIHlpKcifQ.ykfWRIUWdsCAMjM460GwufGkg7JVdAGUbsQP_PrJoRY, name=老大)) 耗时7ms
+2026-11-19 16:30:34 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-19 16:30:34 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-loginInfo=LoginInfo(username=meimeichifan, password=123456, token=null, name=null)
+2026-11-19 16:30:34 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=meimeichifan, password=123456, token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJza3ktdGFrZS1vdXQtc2V2ZXIiLCJzdWIiOiI1IiwiaWF0IjoxNzk1MDc3MDM0LCJleHAiOjE3OTUxNjM0MzQsIm5hbWUiOiLnvo7kuL3lpbPlrakifQ.u3w6gYBFvX7go_hzU-Tx2C7q4wMkdW_v9Ispgd99bIs, name=美丽女孩)) 耗时4ms
+2026-11-19 21:09:34 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h31m24s831ms712µs800ns).
+2026-11-19 22:22:30 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m25s776ms933µs700ns).
+2026-11-19 23:16:52 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-19 23:16:52 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-19 23:16:52 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-19 23:16:52 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.

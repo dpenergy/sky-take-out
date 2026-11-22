@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Data
 @AllArgsConstructor
@@ -15,6 +16,8 @@ public class Admi {
     private String password;
     private String name;
     private Integer age;
+    private Integer status;
     private String phoneNumber;
     private LocalDate entryDate;
+    private LocalDateTime updateTime;
 }

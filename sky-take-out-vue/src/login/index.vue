@@ -10,6 +10,12 @@ const login = () => {
     loginApi(loginInfo.value)
     console.log('发送登录请求:',loginInfo.value)
 }
+
+// const testLogin = async () => {
+//     // 自动拼接为一个字符串
+//     const res:Result = await testLoginApi(loginInfo.value)
+//     console.log('发送登录请求:',loginInfo.value)
+// }
 </script>
 <template>
     {{ loginInfo.username }}

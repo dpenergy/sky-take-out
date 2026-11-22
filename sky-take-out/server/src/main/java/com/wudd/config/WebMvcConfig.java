@@ -15,7 +15,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(tokenInterceptor)
                 .addPathPatterns("/**")
-                .excludePathPatterns("/login")
+                .excludePathPatterns("/admi/login")
                 // 放行 knife4j/springdoc 接口文档：页面本身 + 静态资源 + OpenAPI 描述文件
                 .excludePathPatterns("/doc.html")
                 .excludePathPatterns("/webjars/**")

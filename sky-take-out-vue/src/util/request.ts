@@ -31,9 +31,9 @@ request.interceptors.response.use(
     (response) => { // 成功回调：THHP状态码为【200，299】
         // 后端正常的返回Result(无论是成功的还是失败的Result,http状态码都是200)
         // 在业务逻辑里面data.code自行判断是否成功获取结果，然后进行处理
-        return response.data;
+        return response.data
     },
-    (error)=> { // 失败回调：没有响应结果/有响应结果但是THHP状态码不在成功范围内
+    (error) => { // 失败回调：没有响应结果/有响应结果但是THHP状态码不在成功范围内
         // 后端设置了响应状态返回401未登录，这里只处理部分失败结果
         if(error.response?.status == 401) {
             const msg = error.response.data?.message || '请重新登录'

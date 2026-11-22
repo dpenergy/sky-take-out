@@ -15,4 +15,8 @@ public class LoginInfo {
     private String username;
     @Schema(description = "密码")
     private String password;
+    @Schema(description = "登录后下发的令牌")
+    private String token;
+    @Schema(description = "昵称")
+    private String name;
 }

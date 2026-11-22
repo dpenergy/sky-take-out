@@ -1,7 +1,7 @@
 <script setup lang="ts">
 </script>
 <template>
-    <div>customer组件</div>
+    <div>dish</div>
 </template>
 <style scoped>
 </style>
