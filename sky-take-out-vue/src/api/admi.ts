@@ -1,5 +1,5 @@
 import type { Result } from "@/types/common"
-import type { AdmiSearchResult } from "@/types/admi"
+import type { Admi, AdmiSearchResult } from "@/types/admi"
 import request from "@/util/request" // 使用自定义的aixos实例发送异步请求
 import { ElMessage } from "element-plus"
 
@@ -23,4 +23,9 @@ export const queryAdmiList = async (searchName:string,pageSize:number,currentPag
     }
 }
 
+// name，username,phoneNumber,birthday
+export const addAdmiApi =  (admi:Admi):Promise<Result | undefined> => request.post('/admi',admi)
 
+export const deleteAdmiApi = (id:number):Promise<Result | undefined> => request.delete(`/admi?id=${id}`)
+
+export const editAdmiApi = (admi:Admi):Promise<Result | undefined> => request.put('/admi',admi)

@@ -29,6 +29,10 @@ public class AdmiServiceImpl implements AdmiService {
             throw new UsernameException("该用户不存在");
         }
 
+        if(admi.getStatus() == 0){
+            return Result.error("当前账户已被禁用，请联系管理员开启",null);
+        }
+
         // 比较密码
         if(admi.getPassword().equals(loginInfo.getPassword())){
             String token = JwtUtils.generateToken(admi.getId(),admi.getName());
@@ -60,5 +64,35 @@ public class AdmiServiceImpl implements AdmiService {
         Integer total = admiMapper.admiTotalCounts();
 
         return Result.success(new AdmiSearchResult(admiList,total));
+    }
+
+    @Override
+    public Result addAdmi(Admi admi) { // name,username,phoneNumber,birthday,剩下的字段都能自己生成
+        // 检查用户名有没有重复
+        if(admiMapper.queryByUsername(admi.getUsername()) != null) {
+            return Result.error(admi.getUsername()+" 该用户名已经存在！","");
+        }
+
+        admiMapper.addAdmi(admi);
+
+        return Result.success("成功添加新员工！",null);
+    }
+
+    @Override
+    public Result deleteAdmi(Integer id) {
+        if(null == admiMapper.queryById(id)) {
+            return Result.error("不存在该管理员",null);
+        }
+
+        admiMapper.deleteById(id);
+
+        return Result.success("已删除该员工",null);
+    }
+
+    @Override
+    public Result editAdmi(Admi admi) {
+        admiMapper.editAdmi(admi);
+
+        return Result.success("已保存修改",null);
     }
 }

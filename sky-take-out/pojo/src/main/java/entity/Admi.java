@@ -15,7 +15,7 @@ public class Admi {
     private String username;
     private String password;
     private String name;
-    private Integer age;
+    private LocalDate birthday;
     private Integer status;
     private String phoneNumber;
     private LocalDate entryDate;

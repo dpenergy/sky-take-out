@@ -8,10 +8,10 @@ spring:
   # 交给SpringBoot自动配置使用
   # 首先被绑定到DataSourceProperties，再被创建为DataSource bean(默认是HikariCP连接池)，之后所有需要访问数据库的框架（Mybatis,JPA,JdbcTemplate）都从这个bean获取到数据库的连接
   datasource:
-    url: jdbc:mysql://localhost:3306/sky_take_out
-    username: root
-    password: mysql088wway
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${sky.datasource.url}
+    username: ${sky.datasource.username}
+    password: ${sky.datasource.password}
+    driver-class-name: ${sky.datasource.driver-class-name}
 
 # 启动knife4j增强UI
 knife4j:

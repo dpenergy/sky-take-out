@@ -3,10 +3,12 @@ import {ref} from 'vue'
 import { Back } from '@element-plus/icons-vue'
 import { ElMessageBox,ElMessage } from 'element-plus'
 import router from '@/router'
+import { useRoute } from 'vue-router'
 
 const status = ref('primary')
 const promotion = ref('营业中')
 const name = ref(localStorage.getItem('name'))
+const route = useRoute()
 
 const change = () => {
     if(status.value == 'primary') {
@@ -42,6 +44,7 @@ const exit = () => {
 
 </script>
 <template>
+    <!-- {{ route.name }} -->
     <div class="common-layout">
         <el-container>
             <!-- header -->
@@ -68,7 +71,7 @@ const exit = () => {
                 <!-- Aside -->
                 <el-aside width="200px">
                     <!-- default-active设置默认的激活选项 -->
-                    <el-menu router default-active="workbench">
+                    <el-menu router :default-active="route.name">
                         <el-menu-item index="workbench">
                             <el-icon><HomeFilled /></el-icon><span>工作台</span>
                         </el-menu-item>

@@ -916,3 +916,1279 @@ Caused by: java.lang.IllegalArgumentException: Mapped Statements collection alre
 	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:943)
 	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:88)
 	... 49 common frames omitted
+2026-11-22 11:39:32 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 36308 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-22 11:39:32 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-22 11:39:32 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-22 11:39:33 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-22 11:39:33 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-22 11:39:33 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-22 11:39:33 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-22 11:39:33 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-22 11:39:33 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 987 ms
+2026-11-22 11:39:34 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-22 11:39:34 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-22 11:39:34 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 2.094 seconds (process running for 2.591)
+2026-11-22 11:39:34 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-22 11:39:34 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-22 11:39:40 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-22 11:39:40 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-22 11:39:40 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-11-22 11:39:40 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:39:40 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:39:40 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-11-22 11:39:40 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@213b1ae0
+2026-11-22 11:39:40 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-11-22 11:39:40 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时354ms
+2026-11-22 11:39:48 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:39:48 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:39:48 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时6ms
+2026-11-22 11:39:53 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:39:53 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:39:53 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 11:39:55 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:39:55 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:39:55 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=50, currentPage=1, start=0)) 耗时6ms
+2026-11-22 11:39:58 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:39:58 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:39:58 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时6ms
+2026-11-22 11:40:01 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:40:01 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:40:01 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=50, currentPage=1, start=0)) 耗时6ms
+2026-11-22 11:40:04 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:40:04 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:40:04 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 11:40:49 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:40:49 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:40:49 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时5ms
+2026-11-22 11:40:52 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:40:52 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:40:52 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=50, currentPage=1, start=0)) 耗时6ms
+2026-11-22 11:46:13 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:46:13 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:46:13 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时3ms
+2026-11-22 11:46:26 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:46:26 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:46:26 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时3ms
+2026-11-22 11:46:32 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:46:32 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:46:32 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时10ms
+2026-11-22 11:47:11 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:47:11 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:47:11 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时4ms
+2026-11-22 11:47:15 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:47:15 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:47:15 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时4ms
+2026-11-22 11:47:23 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:47:23 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:47:23 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时4ms
+2026-11-22 11:47:32 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:47:32 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:47:32 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时3ms
+2026-11-22 11:48:23 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:48:23 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:48:23 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时5ms
+2026-11-22 11:48:25 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:48:25 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:48:25 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时3ms
+2026-11-22 11:48:46 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:48:46 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:48:46 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时1ms
+2026-11-22 11:49:04 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:49:04 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:49:04 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时4ms
+2026-11-22 11:49:11 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:49:11 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:49:11 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时3ms
+2026-11-22 11:49:14 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:49:14 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:49:14 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时3ms
+2026-11-22 11:49:21 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:49:21 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:49:21 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时5ms
+2026-11-22 11:49:24 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:49:24 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:49:24 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时0ms
+2026-11-22 11:49:25 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:49:25 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:49:25 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时5ms
+2026-11-22 11:49:27 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:49:27 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:49:27 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时5ms
+2026-11-22 11:49:28 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:49:28 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:49:28 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时5ms
+2026-11-22 11:49:30 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:49:30 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:49:30 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时0ms
+2026-11-22 11:49:33 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:49:33 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:49:33 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时2ms
+2026-11-22 11:49:34 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:49:34 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:49:34 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=50, currentPage=1, start=0)) 耗时4ms
+2026-11-22 11:49:40 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:49:40 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:49:40 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时0ms
+2026-11-22 11:51:04 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:51:04 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:51:04 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时5ms
+2026-11-22 11:53:00 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:53:00 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:53:00 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 11:53:06 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:53:06 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:53:06 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 11:53:36 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:53:36 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:53:36 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 11:53:41 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:53:41 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:53:41 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时5ms
+2026-11-22 11:53:42 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:53:42 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:53:42 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 11:53:57 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:53:57 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:53:57 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 11:53:58 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 11:53:58 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 11:53:58 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时10ms
+2026-11-22 15:47:01 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h33m20s277ms325µs700ns).
+2026-11-22 15:47:06 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:47:06 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:47:06 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时17ms
+2026-11-22 15:47:22 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:47:22 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:47:22 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时6ms
+2026-11-22 15:47:24 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:47:24 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:47:24 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时2ms
+2026-11-22 15:47:25 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:47:25 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:47:25 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时3ms
+2026-11-22 15:47:26 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:47:26 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:47:26 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 15:47:31 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:47:31 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:47:31 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 15:50:22 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:50:22 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:50:22 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时7ms
+2026-11-22 15:51:14 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:51:14 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:51:14 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 15:51:34 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:51:34 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:51:34 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 15:51:52 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:51:52 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:51:52 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 15:52:16 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:52:16 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:52:16 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 15:52:28 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:52:28 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:52:28 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 15:52:46 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:52:46 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:52:46 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 15:53:02 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:53:02 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:53:02 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 15:53:27 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:53:27 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:53:27 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 15:53:51 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:53:51 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:53:51 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时2ms
+2026-11-22 15:53:54 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:53:54 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:53:54 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时10ms
+2026-11-22 15:54:00 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:54:00 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:54:00 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 15:54:24 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:54:24 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:54:24 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时16ms
+2026-11-22 15:54:32 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:54:32 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:54:32 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 15:55:38 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:55:38 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:55:38 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时1ms
+2026-11-22 15:55:58 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:55:58 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:55:58 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 15:56:05 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:56:05 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:56:05 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 15:56:20 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:56:20 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:56:20 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 15:59:41 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 15:59:41 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 15:59:41 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时15ms
+2026-11-22 16:00:33 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:00:33 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:00:33 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 16:00:52 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:00:52 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:00:52 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 16:01:02 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:01:02 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:01:02 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时0ms
+2026-11-22 16:04:13 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:04:13 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:04:13 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 16:04:34 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:04:34 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:04:34 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 16:04:48 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:04:48 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:04:48 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时2ms
+2026-11-22 16:07:00 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:07:00 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:07:00 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 16:07:40 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:07:40 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:07:40 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 16:09:40 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:09:40 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:09:40 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 16:09:51 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:09:51 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:09:51 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时2ms
+2026-11-22 16:09:54 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:09:54 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:09:54 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 16:11:21 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:11:21 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:11:21 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时8ms
+2026-11-22 16:11:46 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:11:46 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:11:46 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 16:13:30 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:13:30 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:13:30 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 16:13:41 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:13:41 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:13:41 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时9ms
+2026-11-22 16:13:56 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:13:56 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:13:56 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 16:14:09 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:14:09 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:14:09 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时12ms
+2026-11-22 16:14:56 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:14:56 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:14:56 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 16:16:16 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:16:16 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:16:16 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 16:16:43 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:16:43 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:16:43 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时2ms
+2026-11-22 16:16:51 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:16:51 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:16:51 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 16:17:25 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:17:25 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:17:25 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时7ms
+2026-11-22 16:17:48 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:17:48 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:17:48 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 16:18:13 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:18:13 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:18:13 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 16:18:25 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:18:25 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:18:25 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 16:20:27 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:20:27 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:20:27 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时2ms
+2026-11-22 16:20:49 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:20:49 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:20:49 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 16:21:54 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:21:54 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:21:54 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时11ms
+2026-11-22 16:22:56 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:22:56 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:22:56 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 16:23:08 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:23:08 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:23:08 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 16:24:15 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:24:15 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:24:15 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时28ms
+2026-11-22 16:24:20 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:24:20 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:24:20 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时31ms
+2026-11-22 16:24:39 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:24:39 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:24:39 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时1ms
+2026-11-22 16:25:21 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:25:21 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:25:21 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 16:25:24 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:25:24 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:25:24 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 16:25:30 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:25:30 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:25:30 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 16:26:33 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:26:33 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:26:33 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 16:27:24 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:27:24 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:27:24 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 16:29:46 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:29:46 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:29:46 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 16:30:07 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:30:07 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:30:07 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 16:30:20 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:30:20 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:30:20 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 16:30:24 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:30:24 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:30:24 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 16:30:51 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:30:51 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:30:51 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 16:33:09 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:33:09 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:33:09 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 16:34:17 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:34:17 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:34:17 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 16:43:10 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-22 16:43:10 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-22 16:43:10 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-22 16:43:10 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-11-22 16:43:15 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 30988 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-22 16:43:15 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-22 16:43:15 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-22 16:43:15 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-22 16:43:16 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-22 16:43:16 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-22 16:43:16 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-22 16:43:16 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-22 16:43:16 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 870 ms
+2026-11-22 16:43:17 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-22 16:43:17 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-22 16:43:17 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.882 seconds (process running for 2.38)
+2026-11-22 16:43:17 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-22 16:43:17 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-22 16:43:25 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-22 16:43:25 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-22 16:43:25 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 3 ms
+2026-11-22 16:43:25 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:43:25 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:43:25 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-11-22 16:43:26 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3af7d132
+2026-11-22 16:43:26 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-11-22 16:43:26 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时368ms
+2026-11-22 16:43:30 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:43:30 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:43:30 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时13ms
+2026-11-22 16:47:43 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:47:43 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:47:43 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 16:48:23 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:48:23 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:48:23 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 16:55:07 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:55:07 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:55:07 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时9ms
+2026-11-22 16:57:18 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:57:18 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:57:18 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 16:57:28 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:57:28 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:57:28 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 16:57:32 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:57:32 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:57:32 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 16:58:21 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:58:21 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:58:21 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 16:58:27 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:58:27 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:58:27 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 16:58:57 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:58:57 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:58:57 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 16:59:25 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:59:25 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:59:25 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 16:59:46 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 16:59:46 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 16:59:46 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时7ms
+2026-11-22 17:00:37 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:00:37 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:00:37 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时1ms
+2026-11-22 17:00:43 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:00:43 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:00:43 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 17:01:29 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:01:29 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:01:29 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时7ms
+2026-11-22 17:01:53 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:01:53 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:01:53 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 17:03:57 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:03:57 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:03:57 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 17:04:11 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:04:11 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:04:11 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 17:06:08 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:06:08 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:06:08 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时0ms
+2026-11-22 17:06:40 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:06:40 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:06:40 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 17:07:24 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:07:24 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:07:24 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 17:08:24 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:08:24 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:08:24 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 17:17:01 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:17:01 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:17:01 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 17:19:29 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-22 17:19:29 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-22 17:19:29 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-22 17:19:29 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-11-22 17:19:33 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 30332 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-22 17:19:33 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-22 17:19:33 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-22 17:19:34 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-22 17:19:34 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-22 17:19:34 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-22 17:19:34 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-22 17:19:34 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-22 17:19:34 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 892 ms
+2026-11-22 17:19:35 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-22 17:19:35 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-22 17:19:35 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.873 seconds (process running for 2.33)
+2026-11-22 17:19:35 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-22 17:19:35 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-22 17:19:45 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-22 17:19:45 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-22 17:19:45 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-11-22 17:19:45 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-用户未登录
+2026-11-22 17:19:46 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-用户未登录
+2026-11-22 17:19:46 [http-nio-8080-exec-5] INFO  org.springdoc.api.AbstractOpenApiResource-Init duration for springdoc-openapi is: 223 ms
+2026-11-22 17:20:24 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:20:24 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:20:24 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-11-22 17:20:24 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c66730b
+2026-11-22 17:20:24 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-11-22 17:20:24 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时464ms
+2026-11-22 17:20:28 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:20:28 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:20:28 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时12ms
+2026-11-22 17:20:36 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:20:36 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:20:36 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=美, pageSize=10, currentPage=1, start=0)) 耗时0ms
+2026-11-22 17:20:38 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:20:38 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:20:38 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 17:20:42 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:20:42 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:20:42 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=？, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 17:20:44 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:20:44 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:20:44 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=？, pageSize=10, currentPage=1, start=0)) 耗时1ms
+2026-11-22 17:20:45 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:20:45 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:20:45 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 17:21:00 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:21:00 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-添加管理员请求
+2026-11-22 17:21:00 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:addAdmi(admi=Admi(id=-1, username=12, password=, name=12, birthday=2026-10-27, status=1, phoneNumber=12, entryDate=null, updateTime=null)) 耗时15ms
+2026-11-22 17:21:01 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:21:01 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:21:01 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 17:21:04 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:21:04 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:21:04 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时0ms
+2026-11-22 17:21:06 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:21:06 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:21:06 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 17:21:07 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:21:07 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:21:07 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时3ms
+2026-11-22 17:21:08 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:21:08 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:21:08 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 17:21:09 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:21:09 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:21:09 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时4ms
+2026-11-22 17:21:10 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:21:10 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:21:10 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 17:21:11 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:21:11 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:21:11 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时4ms
+2026-11-22 17:21:11 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:21:11 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:21:11 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时2ms
+2026-11-22 17:21:12 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:21:12 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:21:12 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时4ms
+2026-11-22 17:21:13 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:21:13 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:21:13 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 17:21:14 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:21:14 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:21:14 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时4ms
+2026-11-22 17:22:17 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:22:17 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:22:17 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 17:22:31 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:22:31 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:22:31 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时7ms
+2026-11-22 17:23:04 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:23:04 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:23:04 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 17:23:30 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:23:30 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:23:30 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 17:23:51 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:23:51 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:23:51 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时1ms
+2026-11-22 17:27:24 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:27:24 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:27:24 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 17:28:27 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:28:27 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:28:27 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 17:28:42 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:28:42 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:28:42 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 17:29:19 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:29:19 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:29:19 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 17:29:21 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:29:21 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:29:21 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 17:29:33 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:29:33 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:29:33 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 17:29:50 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:29:50 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:29:50 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 17:30:08 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:30:08 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:30:08 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 17:30:47 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:30:47 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:30:47 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 17:30:51 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:30:51 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:30:51 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 17:31:38 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:31:38 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:31:38 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时0ms
+2026-11-22 17:31:59 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:31:59 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:31:59 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 17:32:13 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:32:13 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:32:13 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时7ms
+2026-11-22 17:32:25 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:32:25 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:32:25 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 17:39:57 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:39:57 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:39:57 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时3ms
+2026-11-22 17:39:58 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:39:58 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:39:59 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 17:40:27 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:40:27 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:40:27 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时1ms
+2026-11-22 17:41:28 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:41:28 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:41:28 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 17:41:39 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:41:39 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:41:39 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 17:42:43 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:42:43 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:42:43 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 17:49:01 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:49:01 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:49:01 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 17:49:58 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:49:58 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:49:58 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时23ms
+2026-11-22 17:50:26 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:50:26 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:50:26 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时6ms
+2026-11-22 17:50:29 [http-nio-8080-exec-6] ERROR com.wudd.handler.GlobalExceptionHandler-Request method 'DELETE' is not supported
+2026-11-22 17:51:00 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-22 17:51:00 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-22 17:51:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-22 17:51:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-11-22 17:51:04 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 8188 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-22 17:51:04 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-22 17:51:04 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-22 17:51:04 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-22 17:51:05 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-22 17:51:05 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-22 17:51:05 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-22 17:51:05 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-22 17:51:05 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 892 ms
+2026-11-22 17:51:05 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-22 17:51:05 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-22 17:51:05 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.819 seconds (process running for 2.268)
+2026-11-22 17:51:05 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-22 17:51:05 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-22 17:51:10 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-22 17:51:10 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-22 17:51:10 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2026-11-22 17:51:10 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:10 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:51:10 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-11-22 17:51:10 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:10 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:51:10 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@242f41a5
+2026-11-22 17:51:10 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-11-22 17:51:10 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时114ms
+2026-11-22 17:51:10 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时432ms
+2026-11-22 17:51:11 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:11 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:51:11 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 17:51:12 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:12 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:51:12 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时4ms
+2026-11-22 17:51:13 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:13 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:51:13 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时1ms
+2026-11-22 17:51:13 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:13 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:51:13 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时4ms
+2026-11-22 17:51:15 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:15 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-删除管理员请求
+2026-11-22 17:51:15 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:deleteAdmi(id=21) 耗时12ms
+2026-11-22 17:51:15 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:15 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:51:15 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时3ms
+2026-11-22 17:51:17 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:17 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:51:17 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 17:51:18 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:18 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:51:18 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时1ms
+2026-11-22 17:51:19 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:19 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:51:19 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 17:51:22 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:22 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:51:22 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时6ms
+2026-11-22 17:51:29 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:29 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-添加管理员请求
+2026-11-22 17:51:29 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:addAdmi(admi=Admi(id=-1, username=12, password=, name=12, birthday=2026-10-26, status=1, phoneNumber=12, entryDate=null, updateTime=null)) 耗时19ms
+2026-11-22 17:51:29 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:29 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:51:29 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时5ms
+2026-11-22 17:51:34 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:34 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-删除管理员请求
+2026-11-22 17:51:34 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:deleteAdmi(id=22) 耗时31ms
+2026-11-22 17:51:34 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:34 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:51:34 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时5ms
+2026-11-22 17:51:44 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:44 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-添加管理员请求
+2026-11-22 17:51:44 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:addAdmi(admi=Admi(id=-1, username=23, password=, name=23, birthday=2026-10-27, status=1, phoneNumber=23, entryDate=null, updateTime=null)) 耗时11ms
+2026-11-22 17:51:44 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:44 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:51:44 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时4ms
+2026-11-22 17:51:58 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:58 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-删除管理员请求
+2026-11-22 17:51:58 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:deleteAdmi(id=23) 耗时9ms
+2026-11-22 17:51:58 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 17:51:58 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 17:51:58 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时5ms
+2026-11-22 19:12:37 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m56s449ms908µs400ns).
+2026-11-22 19:14:46 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:14:46 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:14:46 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时0ms
+2026-11-22 19:14:51 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:14:51 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:14:51 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时0ms
+2026-11-22 19:17:54 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-22 19:17:54 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-22 19:17:54 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-22 19:17:54 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-11-22 19:17:58 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 7084 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-22 19:17:58 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-22 19:17:58 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-22 19:17:59 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-22 19:17:59 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-22 19:17:59 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-22 19:17:59 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-22 19:17:59 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-22 19:17:59 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 823 ms
+2026-11-22 19:18:00 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-22 19:18:00 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-22 19:18:00 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.752 seconds (process running for 2.214)
+2026-11-22 19:18:00 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-22 19:18:00 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-22 19:18:03 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-22 19:18:03 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-22 19:18:03 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-11-22 19:18:03 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:18:03 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:18:03 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-11-22 19:18:03 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46ad963b
+2026-11-22 19:18:03 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-11-22 19:18:03 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时542ms
+2026-11-22 19:18:33 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-用户未登录
+2026-11-22 19:18:33 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-用户未登录
+2026-11-22 19:18:34 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-用户未登录
+2026-11-22 19:18:34 [http-nio-8080-exec-4] ERROR com.wudd.handler.GlobalExceptionHandler-No static resource favicon.ico for request '/favicon.ico'.
+2026-11-22 19:18:40 [http-nio-8080-exec-7] ERROR com.wudd.handler.GlobalExceptionHandler-Request method 'GET' is not supported
+2026-11-22 19:18:40 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-用户未登录
+2026-11-22 19:18:40 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-用户未登录
+2026-11-22 19:18:41 [http-nio-8080-exec-8] ERROR com.wudd.handler.GlobalExceptionHandler-No static resource favicon.ico for request '/favicon.ico'.
+2026-11-22 19:21:30 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-22 19:21:30 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-22 19:21:30 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-22 19:21:30 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-11-22 19:21:32 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 28272 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-22 19:21:32 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-22 19:21:32 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-22 19:21:32 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-22 19:21:33 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-22 19:21:33 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-22 19:21:33 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-22 19:21:33 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-22 19:21:33 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 791 ms
+2026-11-22 19:21:33 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-22 19:21:33 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-22 19:21:33 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.683 seconds (process running for 2.124)
+2026-11-22 19:21:33 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-22 19:21:33 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-22 19:22:17 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-22 19:22:17 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-22 19:22:17 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-11-22 19:22:17 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-用户未登录
+2026-11-22 19:24:38 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-22 19:24:38 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-11-22 19:24:39 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fc0c791
+2026-11-22 19:24:39 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-11-22 19:24:39 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=admi, password=123456, token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJza3ktdGFrZS1vdXQtc2V2ZXIiLCJzdWIiOiIxIiwiaWF0IjoxNzk1MzQ2Njc5LCJleHAiOjE3OTU0MzMwNzksIm5hbWUiOiLnvo7kuL3lpbPlrakifQ.fWKxoIOyRgTuMTLYu7n2aE6oLs_jH0PAqxOThhXAlng, name=美丽女孩)) 耗时519ms
+2026-11-22 19:24:46 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-22 19:24:46 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=admi, password=123456, token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJza3ktdGFrZS1vdXQtc2V2ZXIiLCJzdWIiOiIxIiwiaWF0IjoxNzk1MzQ2Njg2LCJleHAiOjE3OTU0MzMwODYsIm5hbWUiOiLnvo7kuL3lpbPlrakifQ.CTaZ9Zc3xilPSEJiIOGnmDG0K4CyyWOuZHQGYnEiNRg, name=美丽女孩)) 耗时27ms
+2026-11-22 19:24:51 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:24:51 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:24:51 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时12ms
+2026-11-22 19:25:00 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-22 19:25:00 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=admi, password=123456, token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJza3ktdGFrZS1vdXQtc2V2ZXIiLCJzdWIiOiIxIiwiaWF0IjoxNzk1MzQ2NzAwLCJleHAiOjE3OTU0MzMxMDAsIm5hbWUiOiLnvo7kuL3lpbPlrakifQ.7ltvcc69gWB_UQ4z6gMFdFlVhmfaucqSrmMTxuRapjU, name=美丽女孩)) 耗时4ms
+2026-11-22 19:25:09 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-22 19:25:09 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=shiwang, password=123456, token=null, name=null)) 耗时3ms
+2026-11-22 19:25:12 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-22 19:25:12 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=shiwang, password=123456, token=null, name=null)) 耗时4ms
+2026-11-22 19:25:12 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-22 19:25:12 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=shiwang, password=123456, token=null, name=null)) 耗时3ms
+2026-11-22 19:25:13 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-22 19:25:13 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=shiwang, password=123456, token=null, name=null)) 耗时6ms
+2026-11-22 19:25:13 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-22 19:25:13 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=shiwang, password=123456, token=null, name=null)) 耗时4ms
+2026-11-22 19:25:13 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-22 19:25:13 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=shiwang, password=123456, token=null, name=null)) 耗时1ms
+2026-11-22 19:25:13 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-22 19:25:13 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=shiwang, password=123456, token=null, name=null)) 耗时3ms
+2026-11-22 19:25:35 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-22 19:25:35 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-22 19:25:35 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-22 19:25:35 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-11-22 19:25:39 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 22696 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-22 19:25:39 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-22 19:25:39 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-22 19:25:39 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-22 19:25:40 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-22 19:25:40 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-22 19:25:40 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-22 19:25:40 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-22 19:25:40 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 784 ms
+2026-11-22 19:25:40 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-22 19:25:40 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-22 19:25:40 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.754 seconds (process running for 2.165)
+2026-11-22 19:25:40 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-22 19:25:40 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-22 19:25:41 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-22 19:25:41 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-22 19:25:41 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-11-22 19:25:41 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-登录请求
+2026-11-22 19:25:41 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-11-22 19:25:41 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f02acee
+2026-11-22 19:25:41 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-11-22 19:25:41 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:login(loginInfo=LoginInfo(username=admi, password=123456, token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJza3ktdGFrZS1vdXQtc2V2ZXIiLCJzdWIiOiIxIiwiaWF0IjoxNzk1MzQ2NzQxLCJleHAiOjE3OTU0MzMxNDEsIm5hbWUiOiLnvo7kuL3lpbPlrakifQ.ArlIIeCld7Ny_HTFFzKfYMYtnbiWSK59aQUVWrE7px8, name=美丽女孩)) 耗时294ms
+2026-11-22 19:25:42 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:25:42 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:25:42 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时19ms
+2026-11-22 19:25:53 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:25:53 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:25:53 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时5ms
+2026-11-22 19:25:54 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:25:54 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:25:54 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 19:25:58 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:25:58 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:25:58 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时6ms
+2026-11-22 19:26:02 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:26:02 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:26:02 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时6ms
+2026-11-22 19:26:04 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:26:04 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:26:04 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 19:26:06 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:26:06 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:26:06 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时8ms
+2026-11-22 19:26:07 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:26:07 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:26:07 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=3, start=10)) 耗时3ms
+2026-11-22 19:26:08 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:26:08 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:26:08 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=2, start=5)) 耗时3ms
+2026-11-22 19:26:08 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:26:08 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:26:08 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=5, currentPage=1, start=0)) 耗时4ms
+2026-11-22 19:26:10 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:26:10 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:26:10 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时5ms
+2026-11-22 19:26:30 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:26:30 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-添加管理员请求
+2026-11-22 19:26:30 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:addAdmi(admi=Admi(id=-1, username=admi, password=, name=21, birthday=2026-10-29, status=1, phoneNumber=21, entryDate=null, updateTime=null)) 耗时4ms
+2026-11-22 19:27:44 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:27:44 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:27:44 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 19:28:05 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:28:05 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:28:05 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 19:28:17 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:28:17 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:28:17 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 19:28:37 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:28:37 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:28:37 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 19:32:31 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:32:31 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:32:31 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 19:33:59 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:33:59 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:33:59 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时0ms
+2026-11-22 19:35:16 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:35:16 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:35:16 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时0ms
+2026-11-22 19:35:20 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:35:20 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:35:20 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 19:36:08 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:36:08 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:36:08 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 19:36:50 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:36:50 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:36:50 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 19:38:09 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:38:09 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:38:09 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 19:39:45 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:39:45 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:39:45 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 19:40:16 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:40:16 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:40:16 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 19:41:46 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:41:46 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:41:46 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 19:42:14 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:42:14 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:42:14 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 19:42:38 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:42:38 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:42:38 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 19:42:46 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:42:46 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:42:46 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 19:42:56 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:42:56 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:42:56 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时0ms
+2026-11-22 19:43:10 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:43:10 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-添加管理员请求
+2026-11-22 19:43:10 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:addAdmi(admi=Admi(id=-1, username=44, password=, name=44, birthday=2026-10-28, status=1, phoneNumber=44, entryDate=null, updateTime=null)) 耗时29ms
+2026-11-22 19:43:10 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:43:10 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:43:10 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 19:43:12 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:43:12 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:43:12 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时2ms
+2026-11-22 19:43:16 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:43:16 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-删除管理员请求
+2026-11-22 19:43:16 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:deleteAdmi(id=24) 耗时67ms
+2026-11-22 19:43:16 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:43:16 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:43:16 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时2ms
+2026-11-22 19:45:32 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:45:32 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:45:32 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 19:46:01 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:46:01 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:46:01 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 19:46:08 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:46:08 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:46:08 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 19:46:51 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:46:51 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:46:51 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 19:47:29 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:47:29 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:47:29 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 19:47:45 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:47:45 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:47:45 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 19:48:47 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:48:47 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:48:47 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时7ms
+2026-11-22 19:49:20 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:49:20 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:49:20 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 19:50:52 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:50:52 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:50:52 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 19:51:22 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:51:22 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:51:22 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 19:51:55 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 19:51:55 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 19:51:55 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 20:00:04 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:00:04 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:00:04 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 20:00:15 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:00:15 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:00:15 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 20:02:07 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:02:07 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:02:07 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 20:05:06 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-用户未登录
+2026-11-22 20:05:06 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-用户未登录
+2026-11-22 20:12:38 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:12:38 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:12:38 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时7ms
+2026-11-22 20:16:44 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-22 20:16:44 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-22 20:16:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-22 20:16:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-11-22 20:16:47 [main] INFO  com.wudd.ServerApplication-Starting ServerApplication using Java 21.0.12 with PID 10900 (D:\15_sky_take_out\sky-take-out\server\target\classes started by wudd in D:\15_sky_take_out\sky-take-out)
+2026-11-22 20:16:47 [main] DEBUG com.wudd.ServerApplication-Running with Spring Boot v4.0.9, Spring v7.0.10
+2026-11-22 20:16:47 [main] INFO  com.wudd.ServerApplication-No active profile set, falling back to 1 default profile: "default"
+2026-11-22 20:16:47 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 9.0.2.Final
+2026-11-22 20:16:48 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-11-22 20:16:48 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-22 20:16:48 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-11-22 20:16:48 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-22 20:16:48 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 874 ms
+2026-11-22 20:16:49 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-11-22 20:16:49 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-11-22 20:16:49 [main] INFO  com.wudd.ServerApplication-Started ServerApplication in 1.849 seconds (process running for 2.311)
+2026-11-22 20:16:49 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-22 20:16:49 [main] WARN  org.springdoc.core.events.SpringDocAppInitializer-SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-22 20:16:57 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-22 20:16:57 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-11-22 20:16:57 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-11-22 20:16:57 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:16:57 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:16:57 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-11-22 20:16:57 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18d3830c
+2026-11-22 20:16:57 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-11-22 20:16:57 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时325ms
+2026-11-22 20:17:04 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:17:04 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-修改管理员信息请求
+2026-11-22 20:17:05 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:editAdmi(admi=Admi(id=10, username=kundun, password=123456, name=困顿, birthday=2007-05-04, status=1, phoneNumber=78910123456, entryDate=2026-11-22, updateTime=2026-11-22T10:46:11)) 耗时42ms
+2026-11-22 20:17:05 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:17:05 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:17:05 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 20:17:11 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:17:11 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-修改管理员信息请求
+2026-11-22 20:17:11 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:editAdmi(admi=Admi(id=10, username=kundun, password=123456, name=困顿, birthday=2007-05-04, status=0, phoneNumber=78910123456, entryDate=2026-11-22, updateTime=2026-11-22T10:46:11)) 耗时13ms
+2026-11-22 20:17:11 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:17:11 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:17:11 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 20:17:16 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:17:16 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-修改管理员信息请求
+2026-11-22 20:17:16 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:editAdmi(admi=Admi(id=10, username=kundun, password=123456, name=困顿, birthday=2007-05-04, status=1, phoneNumber=78910123456, entryDate=2026-11-22, updateTime=2026-11-22T10:46:11)) 耗时12ms
+2026-11-22 20:17:16 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:17:16 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:17:16 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 20:17:21 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:17:21 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-修改管理员信息请求
+2026-11-22 20:17:21 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:editAdmi(admi=Admi(id=8, username=fennv, password=123456, name=愤怒, birthday=2007-05-04, status=1, phoneNumber=54321678910, entryDate=2026-11-22, updateTime=2026-11-22T10:46:11)) 耗时7ms
+2026-11-22 20:17:21 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:17:21 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:17:21 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 20:17:25 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:17:25 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-修改管理员信息请求
+2026-11-22 20:17:25 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:editAdmi(admi=Admi(id=8, username=fennv, password=123456, name=愤怒, birthday=2007-05-04, status=0, phoneNumber=54321678910, entryDate=2026-11-22, updateTime=2026-11-22T10:46:11)) 耗时9ms
+2026-11-22 20:17:25 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:17:25 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:17:25 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 20:17:28 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:17:28 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:17:28 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时4ms
+2026-11-22 20:17:43 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:17:43 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-添加管理员请求
+2026-11-22 20:17:43 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:addAdmi(admi=Admi(id=-1, username=32, password=, name=32, birthday=2026-11-04, status=1, phoneNumber=32, entryDate=null, updateTime=null)) 耗时11ms
+2026-11-22 20:17:43 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:17:43 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:17:43 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时9ms
+2026-11-22 20:17:48 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:17:48 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-修改管理员信息请求
+2026-11-22 20:17:48 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:editAdmi(admi=Admi(id=25, username=32, password=123456, name=32, birthday=2026-11-04, status=0, phoneNumber=321111, entryDate=2026-11-22, updateTime=2026-11-22T20:17:43)) 耗时19ms
+2026-11-22 20:17:48 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:17:48 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:17:48 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时4ms
+2026-11-22 20:17:52 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:17:52 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-修改管理员信息请求
+2026-11-22 20:17:52 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:editAdmi(admi=Admi(id=25, username=32, password=123456, name=32323213, birthday=2026-11-04, status=0, phoneNumber=321111, entryDate=2026-11-22, updateTime=2026-11-22T20:17:43)) 耗时14ms
+2026-11-22 20:17:52 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:17:52 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:17:52 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时6ms
+2026-11-22 20:18:01 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:18:01 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-修改管理员信息请求
+2026-11-22 20:18:01 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:editAdmi(admi=Admi(id=25, username=32, password=12345678787, name=32323213, birthday=2026-11-04, status=0, phoneNumber=321111, entryDate=2026-11-22, updateTime=2026-11-22T20:17:43)) 耗时6ms
+2026-11-22 20:18:01 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:18:01 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:18:01 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时2ms
+2026-11-22 20:18:15 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:18:15 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-修改管理员信息请求
+2026-11-22 20:18:16 [http-nio-8080-exec-1] ERROR com.wudd.handler.GlobalExceptionHandler-
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'phone_number' at row 1
+### The error may exist in com/wudd/mapper/AdmiMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: update admi           SET name=?,              password=?,             status = ?,             phone_number=?,             birthday = ?          where id = ?
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'phone_number' at row 1
+; Data truncation: Data too long for column 'phone_number' at row 1
+2026-11-22 20:18:38 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:18:38 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-删除管理员请求
+2026-11-22 20:18:38 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:deleteAdmi(id=25) 耗时7ms
+2026-11-22 20:18:38 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:18:38 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:18:38 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时3ms
+2026-11-22 20:18:43 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:18:43 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:18:43 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:18:43 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:18:43 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时5ms
+2026-11-22 20:18:43 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=2, start=20)) 耗时5ms
+2026-11-22 20:20:40 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:20:40 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:20:40 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时7ms
+2026-11-22 20:20:56 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:20:56 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:20:56 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 20:21:17 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:21:17 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:21:17 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时35ms
+2026-11-22 20:21:32 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:21:32 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-修改管理员信息请求
+2026-11-22 20:21:32 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:editAdmi(admi=Admi(id=9, username=jusang, password=123456, name=沮丧, birthday=2007-05-04, status=0, phoneNumber=10987612345, entryDate=2026-11-22, updateTime=2026-11-22T10:46:11)) 耗时7ms
+2026-11-22 20:21:32 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:21:32 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:21:32 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时2ms
+2026-11-22 20:21:41 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:21:41 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:21:41 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 20:22:00 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:22:00 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-修改管理员信息请求
+2026-11-22 20:22:00 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:editAdmi(admi=Admi(id=10, username=kundun, password=123456, name=困顿, birthday=2007-05-04, status=0, phoneNumber=78910123456, entryDate=2026-11-22, updateTime=2026-11-22T10:46:11)) 耗时63ms
+2026-11-22 20:22:00 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:22:00 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:22:00 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时8ms
+2026-11-22 20:22:09 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:22:09 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:22:09 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时0ms
+2026-11-22 20:22:13 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:22:13 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-修改管理员信息请求
+2026-11-22 20:22:13 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:editAdmi(admi=Admi(id=5, username=wudd, password=123456, name=老大, birthday=2007-05-04, status=0, phoneNumber=10000000001, entryDate=2026-11-15, updateTime=2026-11-21T10:04:12)) 耗时77ms
+2026-11-22 20:22:13 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:22:13 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:22:13 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时4ms
+2026-11-22 20:22:13 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:22:13 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-修改管理员信息请求
+2026-11-22 20:22:13 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:editAdmi(admi=Admi(id=4, username=leijun, password=123456, name=雷军, birthday=2007-05-04, status=0, phoneNumber=10030002401, entryDate=2026-11-15, updateTime=2026-11-21T10:04:12)) 耗时5ms
+2026-11-22 20:22:13 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:22:13 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:22:13 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时5ms
+2026-11-22 20:22:14 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:22:14 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-修改管理员信息请求
+2026-11-22 20:22:14 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:editAdmi(admi=Admi(id=3, username=masike, password=123456, name=马斯克, birthday=2007-05-04, status=0, phoneNumber=10001100001, entryDate=2026-11-15, updateTime=2026-11-21T10:04:12)) 耗时38ms
+2026-11-22 20:22:14 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:22:14 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:22:14 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时5ms
+2026-11-22 20:22:18 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:22:18 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:22:18 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 20:22:20 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:22:20 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:22:20 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时5ms
+2026-11-22 20:23:41 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:23:41 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:23:41 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时13ms
+2026-11-22 20:23:50 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:23:50 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:23:50 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 20:24:22 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:24:22 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:24:22 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 20:25:26 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:25:26 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:25:26 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 20:25:53 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:25:53 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:25:53 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 20:26:12 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:26:12 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:26:12 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 20:26:30 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:26:30 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:26:30 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时2ms
+2026-11-22 20:26:36 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:26:36 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-添加管理员请求
+2026-11-22 20:26:36 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:addAdmi(admi=Admi(id=-1, username=232, password=, name=23, birthday=2026-10-28, status=1, phoneNumber=32, entryDate=null, updateTime=null)) 耗时18ms
+2026-11-22 20:26:36 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:26:36 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:26:36 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时0ms
+2026-11-22 20:26:42 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:26:42 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-修改管理员信息请求
+2026-11-22 20:26:42 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:editAdmi(admi=Admi(id=26, username=232, password=123456, name=23, birthday=2026-10-28, status=0, phoneNumber=32, entryDate=2026-11-22, updateTime=2026-11-22T20:26:36)) 耗时6ms
+2026-11-22 20:26:42 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:26:42 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:26:42 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时3ms
+2026-11-22 20:26:47 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:26:47 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-删除管理员请求
+2026-11-22 20:26:47 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:deleteAdmi(id=26) 耗时3ms
+2026-11-22 20:26:47 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:26:47 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:26:47 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时0ms
+2026-11-22 20:26:51 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:26:51 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:26:51 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 20:26:53 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:26:53 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:26:53 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时3ms
+2026-11-22 20:28:18 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 20:28:18 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 20:28:18 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 21:50:56 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h2m27s909ms859µs700ns).
+2026-11-22 21:50:56 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 21:50:56 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 21:50:56 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时12ms
+2026-11-22 21:51:09 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-用户未登录
+2026-11-22 21:51:10 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-用户未登录
+2026-11-22 21:56:02 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 21:56:02 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 21:56:02 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时11ms
+2026-11-22 21:56:26 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 21:56:26 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 21:56:26 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时9ms
+2026-11-22 21:58:13 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 21:58:13 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 21:58:13 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 21:59:34 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 21:59:34 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 21:59:34 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 22:00:34 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:00:34 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:00:34 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 22:01:14 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:01:14 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:01:14 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 22:01:48 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:01:48 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:01:48 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 22:02:11 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:02:11 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:02:11 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时7ms
+2026-11-22 22:06:21 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:06:21 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:06:21 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时6ms
+2026-11-22 22:06:22 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:06:22 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:06:22 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 22:06:24 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:06:24 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:06:24 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 22:06:24 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:06:24 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:06:24 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时9ms
+2026-11-22 22:06:37 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:06:37 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:06:37 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时7ms
+2026-11-22 22:06:42 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:06:42 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:06:42 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时4ms
+2026-11-22 22:11:43 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:11:43 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:11:43 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时7ms
+2026-11-22 22:11:44 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:11:44 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:11:44 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 22:15:03 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:15:03 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:15:03 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时0ms
+2026-11-22 22:16:07 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:16:07 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:16:07 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 22:16:43 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:16:43 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:16:43 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 22:16:53 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:16:53 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:16:53 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时8ms
+2026-11-22 22:18:49 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:18:49 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-添加管理员请求
+2026-11-22 22:18:49 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:addAdmi(admi=Admi(id=-1, username=buruyi, password=, name=人生之不如意十有八九, birthday=2007-05-05, status=1, phoneNumber=55155155151, entryDate=null, updateTime=null)) 耗时12ms
+2026-11-22 22:18:49 [http-nio-8080-exec-2] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:18:49 [http-nio-8080-exec-2] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:18:49 [http-nio-8080-exec-2] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时3ms
+2026-11-22 22:18:51 [http-nio-8080-exec-7] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:18:51 [http-nio-8080-exec-7] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:18:51 [http-nio-8080-exec-7] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时7ms
+2026-11-22 22:19:09 [http-nio-8080-exec-6] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:19:09 [http-nio-8080-exec-6] INFO  com.wudd.controller.AdmiController-修改管理员信息请求
+2026-11-22 22:19:09 [http-nio-8080-exec-6] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:editAdmi(admi=Admi(id=27, username=buruyi, password=123456, name=人生之不如意十有八九, birthday=2007-05-05, status=0, phoneNumber=55155155151, entryDate=2026-11-22, updateTime=2026-11-22T22:18:49)) 耗时17ms
+2026-11-22 22:19:09 [http-nio-8080-exec-9] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:19:09 [http-nio-8080-exec-9] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:19:09 [http-nio-8080-exec-9] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时7ms
+2026-11-22 22:19:13 [http-nio-8080-exec-8] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:19:13 [http-nio-8080-exec-8] INFO  com.wudd.controller.AdmiController-修改管理员信息请求
+2026-11-22 22:19:13 [http-nio-8080-exec-8] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:editAdmi(admi=Admi(id=27, username=buruyi, password=123456, name=人生之不如意十有八九, birthday=2007-05-05, status=1, phoneNumber=55155155151, entryDate=2026-11-22, updateTime=2026-11-22T22:18:49)) 耗时21ms
+2026-11-22 22:19:13 [http-nio-8080-exec-10] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:19:13 [http-nio-8080-exec-10] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:19:13 [http-nio-8080-exec-10] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=2, start=10)) 耗时4ms
+2026-11-22 22:19:35 [http-nio-8080-exec-1] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:19:35 [http-nio-8080-exec-1] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:19:35 [http-nio-8080-exec-1] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时5ms
+2026-11-22 22:19:39 [http-nio-8080-exec-3] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:19:39 [http-nio-8080-exec-3] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:19:39 [http-nio-8080-exec-3] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时2ms
+2026-11-22 22:19:51 [http-nio-8080-exec-4] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:19:51 [http-nio-8080-exec-4] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:19:51 [http-nio-8080-exec-4] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=20, currentPage=1, start=0)) 耗时2ms
+2026-11-22 22:31:56 [http-nio-8080-exec-5] INFO  com.wudd.interceptor.TokenInterceptor-token校验通过
+2026-11-22 22:31:56 [http-nio-8080-exec-5] INFO  com.wudd.controller.AdmiController-分页查询管理员列表请求
+2026-11-22 22:31:56 [http-nio-8080-exec-5] INFO  com.wudd.aspect.ControllerLogAspect-总结：com.wudd.controller.AdmiController:queryAdmiList(admiSearchInfo=AdmiSearchInfo(searchName=, pageSize=10, currentPage=1, start=0)) 耗时10ms
+2026-11-22 23:08:24 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-22 23:08:24 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-11-22 23:08:24 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-11-22 23:08:24 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.

@@ -17,22 +17,22 @@ import Admi from '@/views/admi/index.vue'
 const routes:RouteRecordRaw[] = [
     { 
         path:'/login',
-        name:'Login',
+        name:'login',
         component:Login
     },
     {
         path:'/',
-        name:'Layout',
+        name:'layout',   
         component:Layout,
         redirect: '/workbench',
         children:[
-            {path:'workbench',name:'Workbench',component:Workbench},
-            {path:'data',name:'Data',component:Data},
-            {path:'order',name:'Order',component:Order},
-            {path:'setmeal',name:'Setmeal',component:Setmeal},
-            {path:'dish',name:'Dish',component:Dish},
-            {path:'classify',name:'Classify',component:Classify},
-            {path:'admi',name:'Admi',component:Admi},
+            {path:'workbench',name:'workbench',component:Workbench},
+            {path:'data',name:'data',component:Data},
+            {path:'order',name:'order',component:Order},
+            {path:'setmeal',name:'setmeal',component:Setmeal},
+            {path:'dish',name:'dish',component:Dish},
+            {path:'classify',name:'classify',component:Classify},
+            {path:'admi',name:'admi',component:Admi},
         ]
     }
 ]
